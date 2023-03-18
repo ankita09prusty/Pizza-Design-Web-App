@@ -1,0 +1,61 @@
+.background{
+  size: 200px;;
+  position:centre;
+
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizza-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.pizza-base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.base-img {
+  height: 100px;
+  cursor: pointer;
+}
+
+.empty-circle {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  border: 2px dashed grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topping-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.topping-img {
+  height: 80px;
+  cursor: pointer;
+}
